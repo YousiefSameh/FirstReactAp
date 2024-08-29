@@ -1,0 +1,47 @@
+
+.heading {
+  text-align: center;
+}
+
+.heading h1 {
+  padding: 25px;
+  font-size: 30px;
+}
+
+.heading .text-gray {
+  margin: auto;
+  width: 47%;
+}
+
+.text-gray {
+  display: block;
+  color: var(--color-four);
+  line-height: 2;
+  width: 70%;
+}
+
+.sec-1 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.sec-1 .container .left-section img{
+  transform: translateX(-50px);
+}
+
+.sec-1 .container .right-section ul li {
+  list-style: none;
+  padding: 40px;
+  width: 100%;
+}
+
+.sec-1 .container .right-section ul li h1 {
+  padding-bottom: 10px;
+}
+
+.sec-1 .container .right-section ul li .text-gray {
+  width: 70%;
+  line-height: 2;
+}

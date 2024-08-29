@@ -1,0 +1,32 @@
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+.cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 30%;
+}
+
+.cards .card img {
+  width: 50px;
+  margin-bottom: 40px;
+}
+
+.cards .card span {
+  display: block;
+  width: 70%;
+}
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 150px;
+}

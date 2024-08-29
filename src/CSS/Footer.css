@@ -1,0 +1,36 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #eee;
+}
+
+footer > img {
+  width: 60px;
+}
+
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .links {
+  width: 40%;
+}
+
+footer .links li {
+  padding: 30px;
+}
+
+footer .links li a {
+  text-decoration: none;
+  color: var(--color-three);
+  font-size: larger;
+  font-weight: bold;
+}
+
+footer .icons li {
+  padding-right: 30px;
+}

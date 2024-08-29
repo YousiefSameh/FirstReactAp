@@ -1,0 +1,74 @@
+.hero {
+  height: 100%;
+  background-image: url(../images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero .container .logo {
+  padding-bottom: 50px;
+}
+
+.hero .container .text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+}
+
+.hero .container .text span {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hero .container .text p {
+  color: var(--color-four);
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.buttons {
+  width: 100%;
+  text-align: center;
+}
+
+.buttons .button-green {
+  background-color: var(--color-one);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 17px;
+  border-radius: 200px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.buttons .button-green:hover {
+  opacity: .8;
+}
+
+.buttons .button-blue {
+  background-color: var(--color-two);
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-size: 17px;
+  border-radius: 200px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.buttons .button-blue:hover {
+  opacity: .8;
+}
